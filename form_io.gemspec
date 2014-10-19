@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = FormIo::VERSION
   spec.authors       = ['Jordaniel Wolk']
   spec.email         = ['jd@gophilosophie.com']
-  spec.summary       = %q{Framework for simpler form objects}
-  spec.description   = %q{Framework for simpler form objects}
+  spec.summary       = %q{Principled form objects with less responsibilities}
+  spec.description   = %q{Principled form objects with less responsibilities}
   spec.homepage      = ''
   spec.license       = 'MIT'
 

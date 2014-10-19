@@ -1,8 +1,6 @@
 Form.IO
 -------
 
-# Philosophy
-
 Form objects suck.
 
 
