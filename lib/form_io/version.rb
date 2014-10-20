@@ -1,3 +1,3 @@
-module FormIo
+module FormIO
   VERSION = '0.0.1'
 end
