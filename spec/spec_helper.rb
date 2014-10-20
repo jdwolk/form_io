@@ -1,5 +1,6 @@
 require 'pry'
 require 'form_io'
+require 'ostruct'
 
 RSpec.configure do |config|
   config.filter_run :focus
