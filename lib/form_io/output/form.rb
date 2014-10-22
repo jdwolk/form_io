@@ -1,8 +1,12 @@
+require 'active_attr'
+
 module FormIO
   module Output
     # OutputForms encapsulate the middle part of that out data flow:
     # model attributes -> form object -> user display
     class Form
+      include ::ActiveAttr::BasicModel
+
       class << self
         attr_accessor :field_definitions
 
