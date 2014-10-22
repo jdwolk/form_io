@@ -8,7 +8,6 @@
 /spec/reports/
 /tmp/
 /pofo/
-/example/
 *.bundle
 *.so
 *.o

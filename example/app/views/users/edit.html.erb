@@ -1,0 +1,6 @@
+<h1>Edit User</h1>
+<%= simple_form_for @user, url: user_url(@user.model.id) do |f| %>
+  <%= render partial: 'users/form', locals: { f: f } %>
+
+  <%= f.button :submit, 'Update user' %>
+<% end %>
