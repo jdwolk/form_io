@@ -1,6 +1,6 @@
 require 'form_io/version'
 
 module FormIO
-  autoload :OutForm, 'form_io/out_form'
-  autoload :OutTransformer, 'form_io/out_transformer'
+  autoload :Output, 'form_io/output'
+  autoload :FieldDefinitions, 'form_io/field_definitions'
 end

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe FormIO::OutForm do
+describe FormIO::Output::Form do
   class PhoneReader < Struct.new(:phone)
     def value=(model_value)
       @value = model_value
@@ -15,7 +15,7 @@ describe FormIO::OutForm do
     end
   end
 
-  class UserDetailsForm < FormIO::OutForm
+  class UserDetailsForm < FormIO::Output::Form
     field :name
     field :phone, transformer: PhoneReader
   end
@@ -36,7 +36,7 @@ describe FormIO::OutForm do
     end
 
     it 'only has fields for fields slots its own field slots' do
-      class OtherForm < FormIO::OutForm
+      class OtherForm < FormIO::Output::Form
         field :other_field
       end
 
