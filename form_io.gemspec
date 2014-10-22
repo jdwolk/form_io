@@ -27,4 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry-byebug', '~> 2.0.0'
   spec.add_development_dependency 'guard', '~> 2.6.1'
   spec.add_development_dependency 'guard-rspec', '~> 4.3.1'
+
+  spec.add_dependency 'active_attr', '~> 0.8.4'
+  spec.add_dependency 'activesupport', '> 3.0'
 end

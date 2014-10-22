@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe FormIO::Adapters, focus: true do
+describe FormIO::Adapters do
   describe '.adapter' do
     module TestAdapter
       def self.included(base)
